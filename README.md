@@ -24,10 +24,6 @@ Your app is ready to be deployed!
 
 <h2>4 - `npm install`</h2>
 
-<h2>5 - `npm install aws-sdk`</h2>
-
-<h2>4 - `npm install aws-cli`</h2>
-
 install all dependencies if your project haven't `node module`
 
 <table>

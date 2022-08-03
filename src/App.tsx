@@ -3,7 +3,6 @@ import './App.css';
 import ProcessImage from "./components/ProcessImage";
 import {useState} from "react";
 import './index.css';
-import Wa from "./components/wait";
 import {wait} from "@testing-library/user-event/dist/utils";
 
 function App() {
