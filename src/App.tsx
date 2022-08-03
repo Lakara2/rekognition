@@ -3,7 +3,6 @@ import './App.css';
 import ProcessImage from "./components/ProcessImage";
 import {useState} from "react";
 import './index.css';
-import {wait} from "@testing-library/user-event/dist/utils";
 
 function App() {
     const [valeur,setValeur]= useState<any>(null);
