@@ -12,11 +12,41 @@ code {
     monospace;
 }
 #imageId{
-  position: center;
-  max-height: 1000px;
+  position: absolute;
   width: 100%;
+  height: 100%;
+  max-height: 1000px;
 }
 #daa{
   position: absolute;
-  border: solid 1px darkred;
+  background-image: url("about1.jpeg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 1px #343a40 ;
+}
+.cont-img{
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  max-height: 500px;
+
+}
+.content-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+}
+.card-face{
+  border: 2px solid #0BCEAF;
+  position: absolute;
+  z-index: 2;
+}
+.bombo{
+  box-shadow: 2px 2px 4px;
 }
